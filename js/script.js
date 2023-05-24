@@ -45,3 +45,122 @@ function clickBtn2(){
             }
     }
 }
+
+// Clique botão 3
+function clickBtn3(){
+    let btn = document.getElementById('btn3');
+
+    if (btn.value == ' ' && !finalJogo) {
+        if (controle == 0) {
+            controle = 1;
+            btn.value = "X";
+            btn3 = "X";
+        }   else {
+                controle = 0;
+                btn.value = "O";
+                btn3 = "O";
+            }
+    }
+}
+
+// Clique botão 4
+function clickBtn4(){
+    let btn = document.getElementById('btn4');
+
+    if (btn.value == ' ' && !finalJogo) {
+        if (controle == 0) {
+            controle = 1;
+            btn.value = "X";
+            btn4 = "X";
+        }   else {
+                controle = 0;
+                btn.value = "O";
+                btn4 = "O";
+            }
+    }
+}
+
+// Clique botão 5
+function clickBtn5(){
+    let btn = document.getElementById('btn5');
+
+    if (btn.value == ' ' && !finalJogo) {
+        if (controle == 0) {
+            controle = 1;
+            btn.value = "X";
+            btn5 = "X";
+        }   else {
+                controle = 0;
+                btn.value = "O";
+                btn5= "O";
+            }
+    }
+}
+
+// Clique botão 6
+function clickBtn6(){
+    let btn = document.getElementById('btn6');
+
+    if (btn.value == ' ' && !finalJogo) {
+        if (controle == 0) {
+            controle = 1;
+            btn.value = "X";
+            btn6 = "X";
+        }   else {
+                controle = 0;
+                btn.value = "O";
+                btn6 = "O";
+            }
+    }
+}
+
+// Clique botão 7
+function clickBtn7(){
+    let btn = document.getElementById('btn7');
+
+    if (btn.value == ' ' && !finalJogo) {
+        if (controle == 0) {
+            controle = 1;
+            btn.value = "X";
+            btn7 = "X";
+        }   else {
+                controle = 0;
+                btn.value = "O";
+                btn7 = "O";
+            }
+    }
+}
+
+// Cloque botão 8
+function clickBtn8(){
+    let btn = document.getElementById('btn8');
+
+    if (btn.value == ' ' && !finalJogo) {
+        if (controle == 0) {
+            controle = 1;
+            btn.value = "X";
+            btn8 = "X";
+        }   else {
+                controle = 0;
+                btn.value = "O";
+                btn8 = "O";
+            }
+    }
+}
+
+// Clique botão 9
+function clickBtn9(){
+    let btn = document.getElementById('btn9');
+
+    if (btn.value == ' ' && !finalJogo) {
+        if (controle == 0) {
+            controle = 1;
+            btn.value = "X";
+            btn9 = "X";
+        }   else {
+                controle = 0;
+                btn.value = "O";
+                btn9 = "O";
+            }
+    }
+}
