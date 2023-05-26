@@ -9,9 +9,56 @@ main {
 .tabuleiro div input {
     width: 100px;
     height: 100px;
-    margin: 5px;
-    border: 1px solid gray;
-    border-radius: 6px;
+    margin: -2px;
     font-size: 30px;
     cursor: pointer;;
+}
+
+/* Bordas dos botões */
+.borda1 {
+    border: 10px solid black;
+    border-top: 0;
+    border-left: 0;
+}
+
+.borda2 {
+    border: 10px solid black;
+    border-top: 0;
+}
+
+.borda3 {
+    border: 10px solid black;
+    border-top: 0;
+    border-right: 0;
+}
+
+.borda4 {
+    border: 10px solid black;
+    border-left: 0;
+}
+
+.borda5 {
+    border: 10px solid black;
+}
+
+.borda6 {
+    border: 10px solid black;
+    border-right: 0;
+}
+
+.borda7 {
+    border: 10px solid black;
+    border-bottom: 0;
+    border-left: 0;
+}
+
+.borda8 {
+    border: 10px solid black;
+    border-bottom: 0;
+}
+
+.borda9 {
+    border: 10px solid black;
+    border-bottom: 0;
+    border-right: 0;
 }
