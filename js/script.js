@@ -18,6 +18,7 @@ let finalJogo = false;
 
 // Clique botão 1
 function clickBtn1(){
+    jogadas++;
     let btn = document.getElementById('btn1');
 
     if (btn.value == ' ' && !finalJogo) {
@@ -37,6 +38,7 @@ function clickBtn1(){
 
 // Clique botão 2
 function clickBtn2(){
+    jogadas++;
     let btn = document.getElementById('btn2');
 
     if (btn.value == ' ' && !finalJogo) {
@@ -55,6 +57,7 @@ function clickBtn2(){
 
 // Clique botão 3
 function clickBtn3(){
+    jogadas++;
     let btn = document.getElementById('btn3');
 
     if (btn.value == ' ' && !finalJogo) {
@@ -73,6 +76,7 @@ function clickBtn3(){
 
 // Clique botão 4
 function clickBtn4(){
+    jogadas++;
     let btn = document.getElementById('btn4');
 
     if (btn.value == ' ' && !finalJogo) {
@@ -91,6 +95,7 @@ function clickBtn4(){
 
 // Clique botão 5
 function clickBtn5(){
+    jogadas++;
     let btn = document.getElementById('btn5');
 
     if (btn.value == ' ' && !finalJogo) {
@@ -109,6 +114,7 @@ function clickBtn5(){
 
 // Clique botão 6
 function clickBtn6(){
+    jogadas++;
     let btn = document.getElementById('btn6');
 
     if (btn.value == ' ' && !finalJogo) {
@@ -127,6 +133,7 @@ function clickBtn6(){
 
 // Clique botão 7
 function clickBtn7(){
+    jogadas++;
     let btn = document.getElementById('btn7');
 
     if (btn.value == ' ' && !finalJogo) {
@@ -145,6 +152,7 @@ function clickBtn7(){
 
 // Cloque botão 8
 function clickBtn8(){
+    jogadas++;
     let btn = document.getElementById('btn8');
 
     if (btn.value == ' ' && !finalJogo) {
@@ -163,6 +171,7 @@ function clickBtn8(){
 
 // Clique botão 9
 function clickBtn9(){
+    jogadas++;
     let btn = document.getElementById('btn9');
 
     if (btn.value == ' ' && !finalJogo) {
@@ -283,4 +292,12 @@ function verificaGanhador() {
         lblJogadas.innerText = '';
         return;
     }
+    if (jogadas== 9) {
+        finalJogo = true;
+        lblJogador.innerText = 'O jogo empatou :(';
+        lblJogadas.innerText = '';
+        return;
+    }
+
+    lblJogadas.innerText = '(' + (jogadas+1) + 'ª Jogada)';
 }
