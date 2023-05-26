@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(251, 186, 186);
+    background-color: rgb(144, 246, 255);
 }
 
 h1 {
@@ -19,12 +19,19 @@ main {
     margin: 5px;
     font-size: 30px;
     cursor: pointer;
-    border: 1px solid #ff1d43;
+    border: 1px solid #ff4867;
     border-radius: 5px;
 }
 
+.teste[type=button] {
+    border: 1px solid rgb(182, 182, 182);
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+}
+
 input[type=button] {
-    background-color: #ff91a3;
+    background-color: #ffaab8;
     color: white;
     font-family: cursive;
 }
